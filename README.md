@@ -19,8 +19,14 @@ Haz clic sobre cualquier práctica para abrir su carpeta y consultar su archivo 
 4. [Práctica 3.4 - Suma con pila](./03-04%20sumarpila)
 5. [Práctica 3.5 - Uso de Macros](./05-MACROS)
 
+README de cada practica
+
 1.1 (./README1)
+
 1.2 (./README2)
+
 1.3 (./README3)
+
 1.4 (./README4)
+
 1.5 (./README5)
