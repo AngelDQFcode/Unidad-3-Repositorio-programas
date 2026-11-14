@@ -21,8 +21,8 @@ Haz clic sobre cualquier práctica para abrir su carpeta y consultar su archivo 
 
 README de cada practica
 
-1. [1.1](./README1.md)
-2. [1.2](./README2.md)
-3. [1.3](./README3.md)
-4. [1.4](./README4.md)
-5. [1.5](./README5.md)
+1. [1.1 - README1](./README1)
+2. [1.2 - README2](./README2)
+3. [1.3 - README3](./README3)
+4. [1.4 - README4](./README4)
+5. [1.5 - README5](./README5)
