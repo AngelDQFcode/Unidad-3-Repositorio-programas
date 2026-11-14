@@ -1,0 +1,7 @@
+Al ejecutarse, este programa en lenguaje ensamblador demuestra el **paso de parámetros por medio de la pila (Stack)** y el uso de un marco de pila (*stack frame*) con el registro base `EBP`, 
+siguiendo la convención de llamada `stdcall` (donde el procedimiento llamado limpia los argumentos). Primero, `main` guarda el valor `10` en `EBX`, apila los argumentos `1` y `2` mediante `push`,
+e invoca a `sumarPila`. Dentro de `sumarPila`, se respalda el valor previo de `EBP` y `EBX` en la pila para no alterar su contenido original, se establece `EBP` como referencia fija (`mov ebp, esp`),
+y se recuperan los argumentos desde las direcciones `[ebp+8]` (el `2`) y `[ebp+12]` (el `1`). A pesar de que el procedimiento se llama `sumarPila`,
+en realidad realiza una **multiplicación con signo** (`imul eax, ebx`), dejando el resultado (`2`) en el registro `EAX`. Finalmente, 
+restaura los valores originales de `EBX` (`10`) y `EBP`, y ejecuta `ret 8` para regresar a `main` mientras libera automáticamente los 8 bytes de los dos parámetros apilados antes de finalizar 
+sin mostrar salida en consola.
