@@ -1,0 +1,5 @@
+Al ejecutarse, este programa en ensamblador (MASM con Irvine32) demuestra el uso de **macros** (`MACRO` / `ENDM`) para insertar bloques de instrucciones directamente en tiempo de ensamblado 
+sin realizar saltos `CALL`. Primero, expande la macro `MostrarMensaje` para imprimir **"Bienvenido al programa"** con un salto de línea. Luego, ejecuta la macro `MULTIPLICAR`, 
+que carga `6` (`numA`) y `7` (`numB`) en los registros de 8 bits `AL` y `BL`, efectúa una multiplicación sin signo (`mul bl`) dejando el producto en `AX`, y almacena ese resultado (`42`)
+en la variable de 16 bits `res`. Después, imprime **"El resultado de la multiplicacion es: "** seguido del número **42** en decimal mediante `call WriteDec` (requiriendo que los 16 bits 
+superiores de `EAX` estén en cero para no mostrar basura). Por último, vuelve a invocar `MostrarMensaje` para imprimir **"Hasta luego"** y cierra el programa.
