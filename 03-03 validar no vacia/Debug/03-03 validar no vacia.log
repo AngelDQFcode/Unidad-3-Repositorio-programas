@@ -1,0 +1,3 @@
+﻿  Assembling codigo.asm...
+C:\Users\angel\OneDrive\Documentos\LENGUAJES DE INTERFAZ\Irvine32\Irvine\SmallWin.inc(1): fatal error A1007: nesting level too deep
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\BuildCustomizations\masm.targets(70,5): error MSB3721: El comando "ml.exe /c /nologo /Zi /Fo"Debug\codigo.obj" /I "C:\Users\angel\OneDrive\Documentos\LENGUAJES DE INTERFAZ\Irvine32\Irvine" /W3 /errorReport:prompt  /Tacodigo.asm" salió con el código 1.
