@@ -18,3 +18,9 @@ Haz clic sobre cualquier práctica para abrir su carpeta y consultar su archivo 
 3. [Práctica 3.3 - Validar entrada no vacía](./03-03%20validar%20no%20vacia)
 4. [Práctica 3.4 - Suma con pila](./03-04%20sumarpila)
 5. [Práctica 3.5 - Uso de Macros](./05-MACROS)
+
+1.1 (./README1)
+1.2 (./README2)
+1.3 (./README3)
+1.4 (./README4)
+1.5 (./README5)
