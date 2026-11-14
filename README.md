@@ -21,12 +21,12 @@ Haz clic sobre cualquier práctica para abrir su carpeta y consultar su archivo 
 
 README de cada practica
 
-1.1 (./README1)
+1.1 [(./README1)]
 
-1.2 (./README2)
+1.2 [(./README2)]
 
-1.3 (./README3)
+1.3 [(./README3)]
 
-1.4 (./README4)
+1.4 [(./README4)]
 
-1.5 (./README5)
+1.5 [(./README5)]
