@@ -1,0 +1,5 @@
+Al ejecutarse, este programa en lenguaje ensamblador demuestra la definición y expansión de macros para reutilizar bloques de código sin utilizar llamadas a procedimientos.
+Primero, invoca la macro MostrarMensaje para imprimir en consola "Bienvenido al programa" con un salto de línea. A continuación, ejecuta la macro MULTIPLICAR,
+la cual carga los valores 6 (numA) y 7 (numB) en los registros de 8 bits AL y BL, realiza una multiplicación sin signo (mul bl) cuyo producto de 16 bits queda en AX, y guarda ese valor (42)
+en la variable res. Posteriormente, imprime la etiqueta "El resultado de la multiplicacion es: " seguida del número 42 en formato decimal mediante call WriteDec
+Finalmente, vuelve a utilizar MostrarMensaje para desplegar "Hasta luego" y termina el programa.
