@@ -1,0 +1,5 @@
+Al ejecutarse, este programa en lenguaje ensamblador (MASM con la biblioteca Irvine32) demuestra el flujo de control y el uso de procedimientos mediante las instrucciones CALL y RET. 
+Primero, imprime en consola el texto "inicio de programa" seguido de un salto de línea. 
+Luego, invoca dos veces al procedimiento mensajeAviso: en cada llamada, el puntero de instrucciones (EIP) salta a dicha subrutina para imprimir 
+"Estoy dentro del procedimiento" y regresa automáticamente mediante RET a la siguiente instrucción del flujo principal (intercalando internamente 
+las asignaciones mov eax, 10 y mov eax, 20 en el registro EAX, las cuales no generan salida visible). Finalmente, imprime "Fin del programa" y finaliza la ejecución.
