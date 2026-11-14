@@ -1,0 +1,6 @@
+Al ejecutarse, este programa en lenguaje ensamblador demuestra el funcionamiento de las llamadas anidadas entre procedimientos y cómo se mantiene el orden de retorno. 
+El flujo comienza en main imprimiendo "1. Estamos en MAIN. Llamando a MetodoPadre" y transfiere el control a MetodoPadre, 
+el cual imprime "2. Entrando a MetodoPadre. Llamando a MetodoHijo" para luego invocar a MetodoHijo.
+Dentro de este último se imprime "3. Estamos dentro de MetodoHijo. Ejecutando codigo" y, mediante su instrucción ret, devuelve el control exactamente al punto donde quedó 
+pausado MetodoPadre para imprimir "4. Regresamos a MetodoPadre. Terminando este metodo". Finalmente, el ret de MetodoPadre regresa la ejecución a main,
+donde se imprime "5. De vuelta en MAIN. Fin del programa." antes de terminar.
